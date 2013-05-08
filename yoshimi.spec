@@ -1,13 +1,14 @@
 Summary:	Software synthesizer based on ZynAddSubFX
 Name:		yoshimi
-Version:	1.0.0
-Release:	2
+Version:	1.1.0
+Release:	1
 License:	GPL v2
 Group:		X11/Applications/Sound
-Source0:	http://downloads.sourceforge.net/project/yoshimi/1.0/%{name}-%{version}.tar.bz2
-# Source0-md5:	5f1214155f9274d478a5eb63562f511b
+Source0:	http://downloads.sourceforge.net/yoshimi/%{name}-%{version}.tar.bz2
+# Source0-md5:	c7ec7b7a841e4ae37d81cce8e32a431c
 BuildRequires:	alsa-lib-devel
 BuildRequires:	boost-devel
+BuildRequires:	cairo-devel
 BuildRequires:	cmake
 BuildRequires:	fftw3-devel
 BuildRequires:	fltk-devel
